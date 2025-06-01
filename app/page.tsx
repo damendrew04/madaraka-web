@@ -8,7 +8,7 @@ import Journey from '../components/Journey';
 import Timeline from '../components/Timeline';
 import Future from '../components/Future';
 import Footer from '../components/Footer';
-import { Analytics } from "@vercel/analytics/next"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -104,7 +104,7 @@ export default function Home() {
       <Timeline />
       <Future />
       <Footer />
-      <Analytics />
+      
     </>
   );
 }
